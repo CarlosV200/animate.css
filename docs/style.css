@@ -3,11 +3,12 @@
 \*-----------------------------------*/
 
 :root {
-  --c-main: #351c75;
+  --c-main: #f8f8f8;
   --c-secondary: #e69138;
   --c-dark: #333;
   --c-background: #fce5cd;
   --c-background-dark: #f7d7b5;
+  --c-textHeader: #000;
 }
 
 html,
@@ -721,12 +722,17 @@ blockquote {
   color: #111;
 }
 
+
 .dark h2,
 .dark h3,
 .dark h4,
 .dark a[title='Documentation'],
 .dark pre * {
   color: #e0e0e0;
+}
+
+.docs-header .container .docs-mainTitle a{
+  color: #000;
 }
 
 .dark section {
